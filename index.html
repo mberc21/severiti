@@ -468,7 +468,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/esif.png');">
+              <a href="blog-single1.html" class="block-20 rounded" style="background-image: url('images/esif.png');">
               </a>
               <div class="text p-4">
               	<div class="meta mb-2">
@@ -476,13 +476,13 @@
                   <div><a href="#">Mislav Berc</a></div>
                   <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                 </div>
-                <h3 class="heading"><a href="#">Uzimanje zajma je uvijek loša stvar za vaše poslovanje...ili?</a></h3>
+                <h3 class="heading"><a href="blog-single1.html">Uzimanje zajma je uvijek loša stvar za vaše poslovanje...ili?</a></h3>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/POR\ REFORMA.jpg');">
+              <a href="blog-single2.html" class="block-20 rounded" style="background-image: url('images/POR\ REFORMA.jpg');">
               </a>
               <div class="text p-4">
               	<div class="meta mb-2">
@@ -490,7 +490,7 @@
                   <div><a href="#">Mislav Berc</a></div>
                   <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                 </div>
-                <h3 class="heading"><a href="#">Zanima Vas što donosi porezna reforma u 2024? Pogledajte sažetak najvažnijih izmjena u novoj godini.</a></h3>
+                <h3 class="heading"><a href="blog-single2.html">Zanima Vas što donosi porezna reforma u 2024? Pogledajte sažetak najvažnijih izmjena u novoj godini.</a></h3>
               </div>
             </div>
           </div>
@@ -649,8 +649,7 @@
 					</div>
 					<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
 						<h2 class="footer-heading">Besplatne inicijalne konzultacije</h2>
-						<form action="https_//forsubmit.co/info@severiti-consulting.com" class="form-consultation">
-						<form onsubmit="sendEmail(); reset(); return false;"></form>
+						<form class="form-consultation" action="https_//forsubmit.co/info@severiti-consulting.com" metod="POST">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Vaše ime">
               </div>
@@ -695,22 +694,6 @@
   <script src="js/main.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"> </script>
 
-  <script>
-	function sendEmail(){
-		Email.send({
-			securetoken: "655df082-3ba5-4f79-8fde-ca6a734c9191",
-            To : 'info@severiti-consulting.com',
-            From : document.getElementByID("email").value,
-            Subject : "New contact form inquiry",
-            Body : "Name:" + document.getElementById("ime").value
-			    + "<br> email:" + document.getElementById("email").value
-				+ "<br> predmet:" + document.getElementById("predmet").value
-				+ "<br> poruka:" + document.getElementById("poruka").value
-        }).then(
-      message => alert("Poruka uspješno poslana")
-        );
-	 }
-  </script>
     
   </body>
 </html>
