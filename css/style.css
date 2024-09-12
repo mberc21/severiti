@@ -9154,14 +9154,14 @@ textarea.form-control {
 
 .ftco-faqs .img-faqs {
   position: relative;
-  height: 700px;
+  height: 750px;
   z-index: 0; }
 
 .ftco-faqs .img {
   height: 450px;
   width: 70%;
   position: absolute;
-  right: 195px;
+  right: 220px;
   border-radius: 4px;
   -webkit-box-shadow: 17px 25px 56px -22px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 17px 25px 56px -22px rgba(0, 0, 0, 0.38);
@@ -9171,7 +9171,7 @@ textarea.form-control {
   .ftco-faqs .img.img-2 {
     position: absolute;
     bottom: 0;
-    right: -30px;
+    right: -40px;
     width: 60%;
     z-index: -1; }
 
